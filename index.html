@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <div class="all-books"></div>
+      <button id="add-book">Add Book</button>
+    </main>
+    <div class="modal">
+      <form action="">
+        <div class="modal-body">
+          <span class="close">&times;</span>
+          <label for="title">Title</label>
+          <input type="text" id="title" name="title" />
+          <label for="pages">Pages</label>
+          <input type="number" id="pages" name="pages" />
+          <label for="author">Author</label>
+          <input type="text" id="author" name="author" />
+          <div>
+            <label for="read">Is Read</label>
+            <input type="radio" name="read" id="tread" value="true" />
+          </div>
+          <div>
+            <label for="tread">Read Already</label>
+            <input type="radio" name="read" id="fread" value="false" />
+          </div>
+          <label for="fread">Yet to read</label>
+          <input type="submit" name="add" id="add" value="Add" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
